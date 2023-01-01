@@ -12,9 +12,10 @@
 	
 	<!-- 
 		* welcome-file : url로 해당 이 애플리케이션의 루트로 요청시 제일 먼저 보여지게 되는 메인페이지 지정해놓은 것	
-						 http://www.naver.com
-						 http://구동중인서버의ip주소:포트번호/애플리케이션의루트명
-						 http://localhost:8888/01_Servlet
+						 ex) http://www.naver.com => 네이버의인덱스페이지가뜸
+						 
+						 http://구동중인서버의ip주소:포트번호/요청하고자하는애플리케이션의루트명
+						 즉, http://localhost:8888/01_Servlet => index.html페이지가 뜸 
 						 
 						 단, 해당 welcome file은 src/main/webapp/ 에 위치해있어야됨!
 	 -->
