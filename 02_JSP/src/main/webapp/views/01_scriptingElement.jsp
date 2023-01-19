@@ -1,10 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+	h1{color:red}
+</style>
 </head>
 <body>
 
@@ -24,7 +27,7 @@
 	
 	<p>
 		화면으로 출력하고자 한다면 <br>
-		스크립틀릿 이용해서도 출력 가능 : <% out.println(sum); %> <br>
+		스크립틀릿 이용해서도 출력 가능  : <% out.println(sum); %> <br>
 		표현식(출력식) 이용해서도 출력 가능 : <%= sum %>
 	</p>
 	
@@ -42,14 +45,6 @@
 			<li><%= a %></li>
 		<% } %>
 	</ul>
-	
-	<%
-		public void test(){
-		
-		}
-	%>
-	
-	<% test(); %>
 	
 	
 	

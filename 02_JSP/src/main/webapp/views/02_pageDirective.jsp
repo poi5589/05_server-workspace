@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %> <!-- errorPage="error500.jsp" -->
 <%@ page import="java.util.ArrayList, java.util.Date" %>
 <!DOCTYPE html>
 <html>
@@ -24,6 +24,8 @@
 		리스트의 길이 : <%= list.size() %> <br>
 		0번 인덱스에 담긴 값 : <%= list.get(0) %> <br>
 		1번 인덱스에 담긴 값 : <%= list.get(1) %> <br>
+		10번 인덱스에 담긴 값 : <%= list.get(10) %> <br> 
+		<!-- 자바코드상의 오류 == 500오류  => 별도로 만든 에러페이지 가능 (ㅇ)-->
 	</p>
 </body>
 </html>

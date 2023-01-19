@@ -58,9 +58,20 @@
 			- errorPage : 해당 jsp상에 오류 발생했을 경우 보여줄 에러페이지 경로 지정 <br>
 			<a href="views/02_pageDirective.jsp">View detail</a>
 		</li>
-		<li></li>
-		<li></li>
+		<li>
+			include 지시어 : 현재 jsp상에 또다른 jsp를 포함시키고자 할 때 사용하는 지시어 <br>
+			<a href="views/03_includeDirective.jsp">View detail</a>
+		</li>
+		<li>
+			taglib 지시어 : JSP 기능을 좀 더 확장시킬 수 있는 추가적인 라이브러리를 등록하는 구문
+		</li>
 	</ol>
+	
+	<hr>
+	
+	<h2>피자주문페이지(JSP) --주문요청(View)--> 주문요청을 받아서 처리해주는 Servlet(Controller) --> 피자결제페이지(응답JSP) </h2>
+	<a href="views/pizzaOrederForm.jsp">피자 주문 페이지</a>
+	
 	
 	
 </body>
